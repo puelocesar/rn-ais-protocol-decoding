@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
-        "outDir": "./dist",
-        "noImplicitAny": true,
-        "allowJs": true,
-        "target": "ESNext",
-        "removeComments": true,
-        "sourceMap": true,
-        "alwaysStrict": true                  /* Parse in strict mode and emit "use strict" for each source file. */
-    },
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "target": "ESNext",
+    "removeComments": true,
+    "sourceMap": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true
+  },
     "include": [
         "./src/**/*",
         "./src/test/fixture/*.*"
