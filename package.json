@@ -1,7 +1,7 @@
 {
-  "name": "ais-decoder-ts",
-  "version": "3.0.8",
-  "description": "Ais Decoder (TypeScript, Node 12.17.0)",
+  "name": "rn-ais-decoder-ts",
+  "version": "1.0.0",
+  "description": "Ais Decoder (compatible with React Native)",
   "main": "dist/lib/index.js",
   "scripts": {
     "setup": "npm install",
@@ -26,25 +26,25 @@
     "GPRMC",
     "GPGGA",
     "BSVDM",
-    "ABVDM"
+    "ABVDM",
+    "React Native"
   ],
   "author": "Doron Segal",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "buffer": "^6.0.3"
+  },
   "devDependencies": {
-    "@types/node": "^14.0.10",
-    "@types/tape": "^4.13.0",
-    "tape": "^5.0.1",
-    "typescript": "^3.9.5"
+    "typescript": "~5.3.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doron2402/ais-protocol-decoding.git"
+    "url": "git+https://github.com/puelocesar/rn-ais-protocol-decoding.git"
   },
   "bugs": {
-    "url": "https://github.com/doron2402/ais-protocol-decoding/issues"
+    "url": "https://github.com/puelocesar/rn-ais-protocol-decoding/issues"
   },
-  "homepage": "https://github.com/doron2402/ais-protocol-decoding#readme",
+  "homepage": "https://github.com/puelocesar/rn-ais-protocol-decoding#readme",
   "engines": {
     "node": ">=8.16.2"
   }

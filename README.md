@@ -1,3 +1,7 @@
+## Disclaimer
+
+This is a fork from (https://github.com/doron2402/ais-protocol-decoding) to make it work on React Native
+
 ## AIS Decoder
   The automatic identification system (AIS) is an automatic
   Tracking system used on ships and by vessel traffic services (VTS).
